@@ -1,0 +1,113 @@
+/* css Zen Garden default style v1.02 edited by Tom Lee*/
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file is loosely based on 'Tranquille' by Dave Shea */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 1px 0 0;
+    font: normal 1em Arial, Helvetica, Sans-serif;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1;
+}
+
+.page-wrapper {
+    text-align: center;
+    background: #FFF;
+    width: auto;
+    margin: auto;
+    position: relative;
+    padding: 0;
+}
+
+img{
+    float: left;
+    width: 20%;
+    height: 20%;
+}
+ #csset {
+     visibility: hidden;
+ }
+
+#csset label {
+    clear: left;
+}
+
+input, label {
+    float: left;
+    margin-bottom: 0.4em;
+    width: 20em;
+}
+
+label {
+
+    text-align: right;
+    margin-right: 0.4em;
+    line-height: 1.4em;
+}
+
+header {
+    width: auto;
+    height: auto;
+    background: #FD9453;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+header h2 {
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+form {
+    text-align: left;
+    padding: 2em;
+    background: ivory;
+    border: 1px solid black;
+    position: relative;
+    margin: 1em auto;
+    font-size: 1em;
+}
+
+footer {
+    padding-top: 17px;
+    padding-left: 15px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+}
+
+
+h2, h3, h4, p, div, ul, dl {padding-left: 1em;
+    Padding-right: 1em;}
+
+
+
