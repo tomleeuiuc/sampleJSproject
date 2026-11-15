@@ -1,6 +1,13 @@
 "use strict";
 let debounceTimer;
 
+/*
+*
+* This script is used in the project
+* It searches for country information by IP (converts from URL)
+* It displays the information as a list in index.html
+*
+* */
 
 async function getIPv4FromUrl(inputVal){
     try{

@@ -1,3 +1,13 @@
+/*
+* This is the first version of this project script
+* It is not used
+* It exists for reference only
+*
+*
+* */
+
+
+
 "use strict";
 
 let httpRequest = false;
